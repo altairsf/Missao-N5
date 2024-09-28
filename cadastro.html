@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,70 +10,70 @@
 </head>
 <body style="background-color: rgb(225, 226, 228);">
     <header>
-        <nav class="navbar bg-secondary">
-            <div class="container-fluid navbar-nav">
-                <a class="nav-link" href="home.html">Home</a>
-                <a href="receitas.html">Receitas</a>
-                <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastro</a>
+        <nav class="navbar bg-dark-subtle menu">
+            <div class="container-fluid justify-content-start">
+                <a class="nav-item me-4" href="home.html">Home</a>
+                <a class="nav-item me-4" href="receitas.html">Receitas</a>
+                <a class="nav-link active" href="#">Cadastro</a>
             </div>
         </nav>
     </header>
     <h1>Efetue o seu cadastro</h1>
     <form action="mailto:tiaesther@example.com.br" method="post" enctype="text/plain">
-        <div class="row mb-1">
-            <label for="nome" class="col-sm-2 col-form-label">Nome:</label>
-            <div class="col-sm-7">
-                <input type="text" class="form-control" name="nome" required>
-            </div>
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <label for="nome" class="col-sm-2 col-form-label">Nome:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" name="nome" required>
+                </div>
         </div>
-        <div class="row mb-1">
+        <div class="row mb-2">
             <label for="email" class="col-sm-2 col-form-label">E-mail:</label>
             <div class="col-sm-5">
                 <input type="email" class="form-control" name="email" required>
             </div>
         </div>
-        <div class="row mb-1">
+        <div class="row mb-2">
             <label for="CEP" class="col-sm-2 col-form-label">CEP:</label>
             <div class="col-sm-3">
                 <input type="number" class="form-control" name="CEP" required>
             </div>
         </div>
-        <div class="row mb-1">
+        <div class="row mb-2">
             <label for="rua" class="col-sm-2 col-form-label">Rua:</label>
             <div class="col-sm-7">
                 <input type="text" class="form-control" name="rua" required>
             </div>
         </div>
-        <div class="row mb-1">
+        <div class="row mb-2">
             <label for="num-end" class="col-sm-2 col-form-label">Número:</label>
             <div class="col-sm-2">
                 <input type="text" class="form-control" name="num-end" required>
         </div>
         </div>
-            <div class="row mb-1">
+            <div class="row mb-2">
             <label for="complemento" class="col-sm-2 col-form-label">Complemento:</label>
             <div class="col-sm-3">
                 <input type="text" class="form-control" name="complemento" required>
         </div>
         </div>
-            <div class="row mb-1">
+            <div class="row mb-2">
             <label for="cidade" class="col-sm-2 col-form-label">Cidade:</label>
             <div class="col-sm-7">
                 <input type="text" class="form-control" name="cidade" required>
             </div>
         </div>
-        <div class="row mb-1">
+        <div class="row mb-2">
             <label for="UF" class="col-sm-2 col-form-label">UF:</label>
             <div class="col-sm-2">
                 <input type="text" class="form-control" name="UF" required>
             </div>
         </div>
-        </form>
-    <button type="submit">Cadastrar</button>
-    <footer></footer>
-        <div class="footer">
-            <p>©Esther 2024</p>
         </div>
+        </form>
+    <button class="me-auto" type="submit">Cadastrar</button>
+    <footer class="bg-dark text-light text-center fixed-bottom footer">
+        ©Esther 2024
     </footer>
 </div>
 </body>

@@ -1,38 +1,46 @@
 .container-r{
+    overflow-y: auto;
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    height: calc(100vh-100px);
 }
 .container-r1{
     margin-right: 10px;
     width: 33%;
-    height: 580px;
+    height: 600px;
     background-color:rgb(243, 238, 228);
 }
 .container-r2{
     margin-right: 10px;
     width: 33%;
-    height: 580px;
+    height: 600px;
     background-color:rgb(243, 238, 228);
 }
 .container-r3{
     margin-right: 10px;
     width: 33%;
-    height: 580px;
+    height: 600px;
     background-color:rgb(243, 238, 228);
 }
 .image-r1{
     width: 200px;
     height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .image-r2{
     width: 200px;
     height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .image-r3{
     width: 200px;
     height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .itens{
     text-align: left;
