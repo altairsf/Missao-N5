@@ -8,6 +8,7 @@
     <!--CSS externa-->
     <link rel="stylesheet" type="text/css" href="formatos.css">
     <link rel="stylesheet" type="text/css" href="receitas.css">
+
     
 </head>
 <body style="background-color: rgb(225, 226, 228);">
@@ -20,57 +21,64 @@
         </div>
     </nav>
     </header>
-    <div class="container-r">
-        <div class="container-r1">
-            <h1 class="fs-3">Arroz com brócolis e linguiça</h1>
-            <img class="image-r1"
-            src="R1 Image.JPG" alt="Arroz com brócolis e linguiça">
-            <ul class="itens">
-                <li>Arroz</li>
-                <li>Brócolis</li>
-                <li>Linguiça de frango</li>
-                <li>Tempero a gosto</li>
-            </ul>
-            <hr/>
-            <p class="itens">
-                Em uma frigideira, coloque um fio de azeite e refogue a cebola e o alho.
-                Acrescente o brócolis e tempere com pimenta-do-reino e caldo de legumes.
-                Junte o arroz cozido e a linguiça de frango.
-                Misture tudo e salpique o alho frito.</p>
-        </div>
-        <div class="container-r2">
-            <h1 class="fs-3">Bolo de Café</h1>
-            <img class="image-r2"
-            src="R2 Image.jfif" alt="Bolo de Café">
-            <ul class="itens">
-                <li>3 ovos e 2 xícaras de açucar</li>
-                <li>3 xícaras de farinha de trigo</li>
-                <li>1 xícara de café coado</li>
-                <li>1/2 xícara de óleo e uma colher de fermento</li>
-            </ul>
-            <hr/>
-            <p class="itens">
-                Bata no liquidificador os ovos, o óleo e o açucar. Acrescente aos poucos a farinha e o café
-                coado. Por fim, misture o fermento. Asse em uma forma untada por 30 minutos
-            </p>
-        </div>
-        <div class="container-r3">
-            <h1 class="fs-3">Pudim de leite condensado</h1>
-            <img class="image-r3"
-            src="R3 Image.jfif" alt="Pudim de leite condensado">
-            <ul class="itens">
-                <li>3 ovos</li>
-                <li>1 lata de leite condensado</li>
-                <li>1 lata (mesma do leite condensado) de leite</li>
-                <li>1 xícara de açucar para a calda</li>
-            </ul>
-            <hr/>
-            <p class="itens">
-                Bata no liquidificador os ovos, o leite e o leite condensado. Em outra panela, derreta
-                o açucar até ficar caramelado e acrescente uma xícara de água até engrossar. Coloque em uma
-                forma redonda e despeje a massa de pudim por cima. Asse em banho-maria por 45 minutos.
-            </p>
-        </div>
+    <div class="container-fluid container-r">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 200px;">
+                    <img src="R1 Image.JPG" class="card-img-top" alt="Arroz com brócolis e linguiça" height="180px">
+                    <div class="card-body">
+                        <h6 class="card-title text-center">Arroz com brócolis e linguiça</h6>
+                        <ul class="list-group list-group-flush ms-4">
+                            <li>Arroz</li>
+                            <li>Brócolis</li>
+                            <li>Linguiça de frango</li>
+                            <li>Tempero a gosto</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Em uma frigideira, coloque um fio de azeite e refogue a cebola e o alho.
+                        Acrescente o brócolis e tempere com pimenta-do-reino e caldo de legumes.
+                        Junte o arroz cozido e a linguiça de frango.
+                        Misture tudo e salpique o alho frito.</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col">
+                <div class="card" style="width: 200px;">
+                    <img src="R2 Image.jfif" class="card-img-top" alt="Bolo de Café" height="180px">
+                    <div class="card-body">
+                        <h6 class="card-title text-center">Bolo de Café</h6>
+                        <ul class="list-group list-group-flush ms-4">
+                            <li>3 ovos</li>
+                            <li>2 xícaras de açucar</li>
+                            <li>3 xícaras de farinha de trigo</li>
+                            <li>1 xícara de café coado</li>
+                            <li>1/2 xícara de óleo e uma colher de fermento</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Bata no liquidificador os ovos, o óleo e o açucar. Acrescente aos poucos a farinha e o café
+                        coado. Por fim, misture o fermento. Asse em uma forma untada por 30 minutos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 200px;">
+                    <img src="R3 Image.jfif" class="card-img-top" alt="Pudim de leite condensado" height="180px">
+                    <div class="card-body">
+                        <h6 class="card-title text-center">Pudim de leite condensado</h6>
+                        <ul class="list-group list-group-flush ms-4">
+                            <li>3 ovos</li>
+                            <li>1 lata de leite condensado</li>
+                            <li>1 lata (mesma do leite condensado) de leite</li>
+                            <li>1 xícara de açucar para a calda</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Bata no liquidificador os ovos, o leite e o leite condensado. Em outra panela, derreta
+                        o açucar até ficar caramelado e acrescente uma xícara de água até engrossar. Coloque em uma
+                        forma redonda e despeje a massa de pudim por cima. Asse por 45 minutos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </div>
     <footer class="bg-dark text-light text-center fixed-bottom footer">
         ©Esther 2024
